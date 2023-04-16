@@ -1,6 +1,14 @@
 Team name: GOATS
 Team ID: 57
 
+Python version 2.7.17
+
+Tools:
+-OpenCV: 3.2.0
+-Numpy: 1.16.6
+-Time
+
+
 4 nodes are used + roscore 
 
 Steps to launch the simulation
