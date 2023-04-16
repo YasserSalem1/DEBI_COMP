@@ -1,0 +1,35 @@
+Team name: GOATS
+Team ID: 57
+
+4 nodes are used + roscore 
+
+Steps to launch the simulation
+
+#launch roscore node
+$ roscore
+
+#launch gazebo with the map 
+$ roslaunch turtlebot3_gazebo main.launch
+
+#run the code that gets the ball position 
+$ rosrun turtlebot3_teleop ball.py
+
+#run the code that gets the redline position
+$ rosrun turtlebot3_teleop redline.py
+
+#run the code that drives the robot
+$ rosrun turtlebot3_teleop drive.py 
+
+
+
+
+NOTE:
+-extarct the py files from (scripts) folder and put them in (nodeS) folder 
+PATH: ~/catkin_ws/src/turtlebot3/turtlebot3_teleop/nodes
+
+-extarct the main.world file and put it in the (worlds) folder 
+PATH: ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds
+
+
+-extract the main.launch file and put in the (launch) folder
+PATH:  ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch
